@@ -41,3 +41,14 @@
   
   
   
+  Hoping you know abuot Microcontrollers.
+  
+  So, what is the difference Microcontrollers and FPGA?
+  
+  One of the main differences between a _microcontroller_ and an _FPGA_ is that an FPGA doesn’t have a fixed hardware structure, while a microcontroller does. While FPGAs include   fixed logic cells, these, along with the interconnects, can be programmed in parallel by using HDL coding language. This means FPGAs are not predefined and can be altered         based on the user’s applications.
+  
+  Microprocessors on the other hand do have a fixed hardware structure, which means that all of its components, including the processor, memory, peripheral devices, and
+  connections are predefined. By using software, designers can program the processor to perform desired tasks.
+  
+
+  
