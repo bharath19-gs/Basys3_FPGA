@@ -39,16 +39,22 @@
   
   _Quad SPI Flash_: Flash memory. This is not covered in the current version of the manual
   
+  **What is a FPGA?**
   
+  FPGA - **F**ield **P**rogrammable **G**ate **A**rray. 
+   It is an integrated circuit that can be programmed by a user for a specific use after it has been manufactured. Contemporary FPGAs contain adaptive logic modules (ALMs) and logic elements (LEs) connected via programmable interconnects. These blocks create a physical array of logic gates that can be customized to perform specific computing tasks. 
   
-  Hoping you know abuot Microcontrollers.
+  **How does a FPGA work?**
   
-  So, what is the difference Microcontrollers and FPGA?
+  FPGAs consist of logical modules connected by routing channels. Each module is made up of a programmable lookup table that is used to control the elements that each cell consists of and to perform logical functions of the elements that make up the cell. In addition to the lookup table, each cell contains cascaded adders enabling addition to be done. Subtraction can also be done by changing the logical states of the input. 
   
-  One of the main differences between a _microcontroller_ and an _FPGA_ is that an FPGA doesn’t have a fixed hardware structure, while a microcontroller does. While FPGAs include   fixed logic cells, these, along with the interconnects, can be programmed in parallel by using HDL coding language. This means FPGAs are not predefined and can be altered         based on the user’s applications.
+  **So, what is the difference Microcontrollers and FPGA?**
+  
+  One of the main differences between a _microcontroller_ and an _FPGA_ is  It is an integrated circuit that can be programmed by a user for a specific use after it has been manufactured. Contemporary FPGAs contain adaptive logic modules (ALMs) and logic elements (LEs) connected via programmable interconnects. These blocks create a physical array of logic gates that can be customized to perform specific computing tasks. that an FPGA doesn’t have a fixed hardware structure, while a microcontroller does. While FPGAs include   fixed logic cells, these, along with the interconnects, can be programmed in parallel by using HDL coding language. This means FPGAs are not predefined and can be altered         based on the user’s applications.
   
   Microprocessors on the other hand do have a fixed hardware structure, which means that all of its components, including the processor, memory, peripheral devices, and
   connections are predefined. By using software, designers can program the processor to perform desired tasks.
   
 
+  
   
