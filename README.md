@@ -46,7 +46,7 @@
   
   **How does a FPGA work?**
   
-  FPGAs consist of logical modules connected by routing channels. Each module is made up of a programmable lookup table that is used to control the elements that each cell consists of and to perform logical functions of the elements that make up the cell. In addition to the lookup table, each cell contains cascaded adders enabling addition to be done. Subtraction can also be done by changing the logical states of the input. 
+  FPGAs consist of logical modules connected by routing channels. Each module is made up of a programmable [lookup table](https://hardwarebee.com/overview-of-lookup-tables-in-fpga-design/#:~:text=Lookup%20table%20is%20actually%20your,power%20up%20your%20FPGA%20chip.) that is used to control the elements that each cell consists of and to perform logical functions of the elements that make up the cell. In addition to the lookup table, each cell contains cascaded adders enabling addition to be done. Subtraction can also be done by changing the logical states of the input. 
   
   **So, what is the difference Microcontrollers and FPGA?**
   
@@ -54,6 +54,13 @@
   
   Microprocessors on the other hand do have a fixed hardware structure, which means that all of its components, including the processor, memory, peripheral devices, and
   connections are predefined. By using software, designers can program the processor to perform desired tasks.
+  
+ Now, as we are using Xilinx vivado tool,
+  There will be a need of [constraints file(.xdc file)](https://reference.digilentinc.com/learn/software/tutorials/vivado-xdc-file) for configuring what inputs and outputs we are using in the project, and assign the hardware to a variable in software.
+ 
+  Main 2 main constraints to look out are 
+  1. Timing Constraints - Timing constraints are used to specify the timing characteristics of the design. Timing constraints may affect all internal timing interconnections, delays through logic and LUTs and between flip-flops or registers.
+  2. Physical Constraints - Physical constraints are used to specify the I/O connections, Floor-Planning and Device Configuration.
   
 
   
