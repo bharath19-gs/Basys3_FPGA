@@ -63,5 +63,8 @@
   2. Physical Constraints - Physical constraints are used to specify the I/O connections, Floor-Planning and Device Configuration.
   
 
-  
-  
+ The FPGA can be powered by 2 different methods:
+  1. External powered.
+  2. USB powered.
+  <br>As shown in the below image (by using the connector next to the Logical power switch)
+  ![image](https://digilent.com/reference/_media/basys3-powerblockdiagram.png)
