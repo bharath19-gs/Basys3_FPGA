@@ -68,3 +68,13 @@
   2. USB powered.
   <br>As shown in the below image (by using the connector next to the Logical power switch)
   ![image](https://digilent.com/reference/_media/basys3-powerblockdiagram.png)
+  
+  
+  Now the FPGA board can be programmed in 3 different methods.
+  
+  1.  JTAG - JTAG is a common hardware interface that provides your computer with a way to communicate directly with the chips on a board.
+  2.  Quad SPI Flash Quad SPI is similar to dual, but improves the throughput four times. Two additional data lines are added, and there are 4 bits transferred every clock cycle.
+  3.  USB Flash Drive.
+  
+  For more info on the FPGA board refer the [Reference manual](https://reference.digilentinc.com/programmable-logic/basys-3/reference-manual)
+
