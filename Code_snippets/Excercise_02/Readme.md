@@ -8,5 +8,8 @@
   A seven-segment display is a form of electronic display device for displaying decimal numerals that is an alternative to the more complex dot matrix displays. Seven-segment displays are widely used in digital clocks, electronic meters, basic calculators etc.
   ![7](https://upload.wikimedia.org/wikipedia/commons/e/ea/Seven_segment_01_Pengo.jpg)
   
+ 
+#### How does the seven segment work on basys3?
   
+  ![counter](https://1.bp.blogspot.com/-fz4vstYn_M8/WbSWT6V-UCI/AAAAAAAAAmM/N4pgkj0FPVUsJ8usGeYRKJt3AJBYZ-FWQCLcBGAs/s1600/FPGA_Tutorial_7_segment_LED.png)
 
