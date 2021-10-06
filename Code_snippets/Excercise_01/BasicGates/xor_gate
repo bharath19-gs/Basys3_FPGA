@@ -25,6 +25,6 @@ module xor_gate(
     input B,
     output C
     );
-        assign C =  A ^ B ; // need to do the xor operation here
+        assign C =  A ^ B ; // need to do the xor operation here can use (xor (C, A , B))
     
 endmodule
