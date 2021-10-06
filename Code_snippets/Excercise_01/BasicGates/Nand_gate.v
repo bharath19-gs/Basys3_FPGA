@@ -25,6 +25,6 @@ module Nand_gate(
     input B,
     output C
     );
-        assign C =  ; // need to do the AND operation here
+    assign C =  ~(A & B ); // need to do the AND operation here
     
 endmodule
