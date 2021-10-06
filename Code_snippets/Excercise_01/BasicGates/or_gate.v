@@ -25,6 +25,6 @@ module or_gate(
     input B,
     output C
     );
-        assign C = A | B ; // need to do the Or_operation here
+    assign C = A | B ; // need to do the Or_operation here (can use or(C,A,B))
     
 endmodule
